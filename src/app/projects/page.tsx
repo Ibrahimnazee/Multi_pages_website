@@ -1,44 +1,44 @@
-import React from 'react';
-import Image from 'next/image';
-import lr1 from '@/app/assets/lr1.jpg';
-import lr2 from '@/app/assets/lr2.jpg';
-import lr3 from '@/app/assets/lr3.jpg';
-import lr4 from '@/app/assets/lr4.jpg';
-import lr5 from '@/app/assets/lr5.jpg';
-import k1 from '@/app/assets/k1.jpg';
-import k2 from '@/app/assets/k2.jpg';
-import k3 from '@/app/assets/k3.jpg';
-import k4 from '@/app/assets/k4.jpg';
-import k5 from '@/app/assets/k5.jpg';
-import w1 from '@/app/assets/w1.jpg';
-import w2 from '@/app/assets/w2.jpg';
-import w3 from '@/app/assets/w3.jpg';
-import w4 from '@/app/assets/w4.jpg';
-import w5 from '@/app/assets/w5.jpg';
-import b1 from '@/app/assets/b1.webp';
-import b2 from '@/app/assets/b2.webp';
-import b3 from '@/app/assets/b3.webp';
-import b4 from '@/app/assets/b4.webp';
-import b5 from '@/app/assets/b5.jpg';
-import bd1 from '@/app/assets/bd1.jpg';
-import bd2 from '@/app/assets/bd2.jpg';
-import bd3 from '@/app/assets/bd3.jpg';
-import bd4 from '@/app/assets/bd4.jpg';
-import bd5 from '@/app/assets/bd5.jpg';
-import logo from '@/app/assets/Logo.png';
+import React from "react";
+import Image from "next/image";
+import lr1 from "@/app/assets/lr1.jpg";
+import lr2 from "@/app/assets/lr2.jpg";
+import lr3 from "@/app/assets/lr3.jpg";
+import lr4 from "@/app/assets/lr4.jpg";
+import lr5 from "@/app/assets/lr5.jpg";
+import k1 from "@/app/assets/k1.jpg";
+import k2 from "@/app/assets/k2.jpg";
+import k3 from "@/app/assets/k3.jpg";
+import k4 from "@/app/assets/k4.jpg";
+import k5 from "@/app/assets/k5.jpg";
+import w1 from "@/app/assets/w1.jpg";
+import w2 from "@/app/assets/w2.jpg";
+import w3 from "@/app/assets/w3.jpg";
+import w4 from "@/app/assets/w4.jpg";
+import w5 from "@/app/assets/w5.jpg";
+import b1 from "@/app/assets/b1.webp";
+import b2 from "@/app/assets/b2.webp";
+import b3 from "@/app/assets/b3.webp";
+import b4 from "@/app/assets/b4.webp";
+import b5 from "@/app/assets/b5.jpg";
+import bd1 from "@/app/assets/bd1.jpg";
+import bd2 from "@/app/assets/bd2.jpg";
+import bd3 from "@/app/assets/bd3.jpg";
+import bd4 from "@/app/assets/bd4.jpg";
+import bd5 from "@/app/assets/bd5.jpg";
+import logo from "@/app/assets/Logo.png";
 
 const Projects = () => {
   return (
     <div>
-      <div className="w-full h-auto bg-gray-100 py-12 px-40 ">
+      <div className="w-full h-auto bg-gray-200 py-20 px-0 ">
         {/* Grid Container */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-0">
           {/* Box 1 */}
           <div className="w-full h-[200px] bg-white shadow-md rounded-lg overflow-hidden  hover:scale-110 transform transition-transform duration-100">
-            <h1 className="text-3xl font-bold font-sans flex px-8 py-2">
+            <h1 className="text-3xl font-bold font-sans flex px-8 py-2 text-blue-800">
               Living Room
             </h1>
-            <p className="font-sans py-4 px-8">
+            <p className="font-sans py-4 px-8 text-gray-700">
               Transform your living room with Minhaaj Design Factor’s
               exceptional interior design .
             </p>
@@ -96,15 +96,15 @@ const Projects = () => {
         </button>
       </div>
 
-      <div className=" w-full h-auto bg-gray-100 py-12 px-28">
+      <div className=" w-full h-auto bg-gray-200 py-20 px-0">
         {/* Grid Container */}
-        <div className=" grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-0">
           {/* Box 1 */}
           <div className=" hover:scale-110 transform transition-transform duration-300 w-full h-[200px] bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl ">
-            <h1 className="text-3xl font-bold font-sans flex px-8 py-2">
+            <h1 className="text-3xl font-bold font-sans flex px-8 py-2  text-blue-800" >
               Kitchen
             </h1>
-            <p className="font-sans py-4 px-8">
+            <p className="font-sans py-4 px-8 text-gray-700">
               Transform your kitchen with Minhaaj Design Factor exceptional
               interior design .
             </p>
@@ -162,15 +162,15 @@ const Projects = () => {
         </button>
       </div>
 
-      <div className=" w-full h-auto bg-gray-100 py-12 px-28">
+      <div className=" w-full h-auto bg-gray-200 py-20 px-0">
         {/* Grid Container */}
-        <div className=" grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-0">
           {/* Box 1 */}
           <div className=" hover:scale-110 transform transition-transform duration-300 w-full h-[200px] bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl ">
-            <h1 className="text-3xl font-bold font-sans flex px-8 py-2">
+            <h1 className="text-3xl font-bold font-sans flex px-8 py-2  text-blue-800">
               Wardrobes
             </h1>
-            <p className="font-sans py-4 px-8">
+            <p className="font-sans py-4 px-8 text-gray-700">
               Transform your wardrobes with Minhaaj Design Factor exceptional
               interior design .
             </p>
@@ -228,15 +228,15 @@ const Projects = () => {
         </button>
       </div>
 
-      <div className=" w-full h-auto bg-gray-100 py-12 px-28">
+      <div className="w-full h-auto bg-gray-200 py-20 px-0">
         {/* Grid Container */}
-        <div className=" grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-0">
           {/* Box 1 */}
           <div className=" hover:scale-110 transform transition-transform duration-300 w-full h-[200px] bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl ">
-            <h1 className="text-3xl font-bold font-sans flex px-8 py-2">
+            <h1 className="text-3xl font-bold font-sans flex px-8 py-2  text-blue-800">
               Bathroom
             </h1>
-            <p className="font-sans py-4 px-8">
+            <p className="font-sans py-4 px-8 text-gray-700">
               Transform your bathroom with Minhaaj Design Factor exceptional
               interior design .
             </p>
@@ -294,15 +294,15 @@ const Projects = () => {
         </button>
       </div>
 
-      <div className=" w-full h-auto bg-gray-100 py-12 px-28">
+      <div className="w-full h-auto bg-gray-200 py-20 px-0">
         {/* Grid Container */}
-        <div className=" grid grid-cols-2 md:grid-cols-3 gap-6">
+        <div className=" grid grid-cols-2 md:grid-cols-3 gap-0">
           {/* Box 1 */}
           <div className=" hover:scale-110 transform transition-transform duration-300 w-full h-[200px] bg-white shadow-md rounded-lg overflow-hidden hover:shadow-xl ">
-            <h1 className="text-3xl font-bold font-sans flex px-8 py-2">
+            <h1 className="text-3xl font-bold font-sans flex px-8 py-2  text-blue-800">
               Bedrooms
             </h1>
-            <p className="font-sans py-4 px-8">
+            <p className="font-sans py-4 px-8 text-gray-700">
               Transform your bedrooms with Minhaaj Design Factor exceptional
               interior design .
             </p>
@@ -377,7 +377,7 @@ const Projects = () => {
             </p>
           </div>
 
-          {['Product', 'Resources', 'Company'].map((section) => (
+          {["Product", "Resources", "Company"].map((section) => (
             <div
               key={section}
               className="w-full sm:w-[20%] text-center sm:text-left"
@@ -385,7 +385,7 @@ const Projects = () => {
               <p className="font-bold text-sm sm:text-lg text-white mb-2">
                 {section}
               </p>
-              {['Overview', 'Pricing', 'Stories'].map((item) => (
+              {["Overview", "Pricing", "Stories"].map((item) => (
                 <p
                   key={item}
                   className="text-sm sm:text-base text-gray-300 hover:text-white cursor-pointer"

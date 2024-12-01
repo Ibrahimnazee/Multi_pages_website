@@ -22,9 +22,9 @@ export default function Home() {
           />
         </div>
         <div className="bg-white h-[40px] flex items-center justify-center text-[1rem] sm:text-[1.2rem] w-[80%] mb-[25px] relative z-10">
-          <p>
+          <p className='text-[#007185]'>
             Design is about creating harmony between the soul of a space 
-            <a href="#" className="text-[#007185]"> Click here to go to </a>
+            <a href="#" className="text-red-700"> Click here to go to </a>
           </p>
         </div>
       </div>
