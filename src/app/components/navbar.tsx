@@ -1,8 +1,16 @@
+"use client"
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '@/app/assets/Logo.png';
 
 export default function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
+
   return (
     <>
       <nav className="w-full bg-black py-4 px-4 md:px-8 lg:px-12 xl:px-28 flex flex-col md:flex-row md:justify-between md:items-center">
@@ -16,6 +24,7 @@ export default function Navbar() {
           {/* Hamburger Menu */}
           <button
             id="menu-btn"
+            onClick={toggleMenu}
             className="text-white text-2xl md:hidden focus:outline-none"
           >
             ☰
@@ -25,7 +34,9 @@ export default function Navbar() {
         {/* Links Section */}
         <div
           id="menu"
-          className="hidden md:flex flex-col md:flex-row gap-4 mt-4 md:mt-0 text-white text-sm sm:text-base md:text-lg lg:text-xl"
+          className={`${
+            isMenuOpen ? 'flex' : 'hidden'
+          } md:flex flex-col md:flex-row gap-4 mt-4 md:mt-0 text-white text-sm sm:text-base md:text-lg lg:text-xl`}
         >
           <Link href="/" className="hover:opacity-75">
             <b>Home</b>

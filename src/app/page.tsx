@@ -23,8 +23,7 @@ export default function Home() {
         </div>
         <div className="bg-white h-[40px] flex items-center justify-center text-[1rem] sm:text-[1.2rem] w-[80%] mb-[25px] relative z-10">
           <p>
-            Design is about creating harmony between the soul of a space and the
-            needs of the people within it
+            Design is about creating harmony between the soul of a space 
             <a href="#" className="text-[#007185]"> Click here to go to </a>
           </p>
         </div>
